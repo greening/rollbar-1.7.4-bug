@@ -6,7 +6,7 @@ From version 1.6.0 to 1.7.5, Rollbar fails to log through log4j2 with this (typi
 
 To see this bug, first create file `secret.properties`, and add a Rollbar token thus:
 ```properties
-rollbar.accessToken=&lt;secret-rollbar-token&gt;
+rollbar.accessToken=<secret-rollbar-token>
 ```
 Then run these commands:
 ```shell script
